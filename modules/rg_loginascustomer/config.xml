@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>rg_loginascustomer</name>
+    <displayName><![CDATA[Login as Customer]]></displayName>
+    <version><![CDATA[1.0.1]]></version>
+    <description><![CDATA[Allows you login as an specific customer at front office.]]></description>
+    <author><![CDATA[Rolige]]></author>
+    <tab><![CDATA[back_office_features]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

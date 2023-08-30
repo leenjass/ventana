@@ -1,0 +1,313 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License version 3.0
+* that is bundled with this package in the file LICENSE.txt
+* It is also available through the world-wide-web at this URL:
+* https://opensource.org/licenses/AFL-3.0
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to a newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to CustomizationPolicy.txt file inside our module for more information.
+*
+* @author Webkul IN
+* @copyright Since 2010 Webkul
+* @license https://opensource.org/licenses/AFL-3.0 Academic Free License version 3.0
+*/
+
+.wk-product-variants {
+    background-color: #eee;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.wk_option_info_icon_div {
+    position: relative;
+}
+
+.wk_option_info_icon {
+    font-size: 18px;
+    color: #24b9d7;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.wk_option_info_icon:hover {
+    font-size: 20px;
+}
+
+.wk-custom-file {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 1.25rem;
+    line-height: 2.625rem;
+    color: #7a7a7a;
+    text-indent: 0.625rem;
+    background: #fff;
+    max-width: 100%;
+    border: 1px solid;
+}
+
+.wk-custom-file .file-input {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 2.625rem;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.wk-custom-file button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.wk_option_text_area {
+    width: 100%;
+    height: 3.125rem;
+    padding: 0.625rem;
+    resize: none;
+    background: #f6f6f6;
+}
+
+.wk_custom_text {
+    background: #fff !important;
+}
+
+.wk_color_input {
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    /* bottom: -26px; */
+}
+
+.wk-hovercard {
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    top: -75px;
+    transform: translateX(-10%);
+    left: 35px;
+    width: 100%;
+}
+
+.wk-hovercard_hover {
+    position: absolute;
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 0.1s;
+    top: 0px;
+    transform: translateX(-10%);
+    z-index: 1;
+    left: 35px;
+    width: 100%;
+}
+
+.wk-tooltiptext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 18px;
+    border-radius: 5px;
+    line-height: 15px;
+    transition: 1s;
+    min-width: 200px;
+    background-color: #fff;
+}
+
+.wk-product-variants>.wk-product-variants-item {
+    margin: 2.25rem 0;
+}
+
+.wk-product-variants>.wk-product-variants-item .wk_opt_val {
+    padding: 8px 0px;
+}
+
+.wk-product-variants>.wk-product-variants-item .control-label {
+    margin-bottom: 1.375rem;
+}
+
+.wk-product-variants>.wk-product-variants-item .wk_option_title {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.wk-product-variants>.wk-product-variants-item .wk_option_checkbox_parent {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.wk-product-variants>.wk-product-variants-item select {
+    padding-right: 1.875rem;
+    background-color: #fff;
+    height: auto;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.wk-product-variants>.wk-product-variants-item textarea {
+    background-color: #fff;
+}
+
+.wk_price_impact {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.wk-label {
+    font-size: 1rem;
+    color: #232323;
+    font-weight: bold;
+}
+
+.wk-customization-option-modal .modal-body {
+    overflow: auto;
+}
+
+.product-miniature .wk_custom_product_option_btn_mod,
+.product-miniature .wk-customization-option-modal {
+    display: none !important;
+}
+
+
+/* If issue exits then copied these files from theme.css  from .quickview*/
+
+.wk_quickview .modal-dialog {
+    width: calc(100% - 30px);
+    max-width: 64rem;
+}
+
+.wk_quickview .modal-content {
+    min-height: 28.13rem;
+    background: #f6f6f6;
+}
+
+.wk_quickview .modal-header {
+    padding: 0.625rem;
+    border: none;
+}
+
+.wk_quickview .modal-body {
+    min-height: 23.75rem;
+}
+
+.wk_quickview .modal-footer {
+    border-top: 1px solid rgba(122, 122, 122, 0.3);
+}
+
+.wk_quickview .layer {
+    display: none;
+}
+
+.wk_quickview .product-cover img {
+    width: 100%;
+    height: auto;
+}
+
+.wk_quickview .images-container {
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 21.88rem;
+}
+
+.wk_quickview .images-container .product-images>li.thumb-container>.thumb {
+    width: 100%;
+    max-width: 4.938rem;
+    height: auto;
+    margin-bottom: 0.8125rem;
+    background: #fff;
+}
+
+.wk_quickview .mask {
+    width: 35%;
+    max-height: 22.5rem;
+    margin-left: 0.625rem;
+    overflow: hidden;
+}
+
+.wk_quickview .arrows {
+    position: absolute;
+    top: 0;
+    right: 5rem;
+    bottom: 0;
+    z-index: 0;
+    max-height: 22.5rem;
+}
+
+.wk_quickview .arrows .arrow-up {
+    margin-top: -3.125rem;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.wk_quickview .arrows .arrow-down {
+    position: absolute;
+    bottom: -1.875rem;
+    cursor: pointer;
+}
+
+.wk_quickview .social-sharing {
+    margin-top: 0;
+    margin-left: 2.5rem;
+}
+
+.wk_quickview .alert {
+    text-align: left;
+}
+
+.wk-product-variants-item .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+}
+
+.wk_custom_addon {
+    width: auto !important;
+}
+
+.wk-product-option-info-full {
+    height: 400px;
+    overflow: auto;
+}
+
+.wk_product_opt_container .label_bottom {
+    max-width: auto;
+    display: inline-block;
+}
+
+#ui-datepicker-div {
+    z-index: 99999 !important;
+}
+
+@media screen and (max-width: 576px) {
+    #ui-datepicker-div {
+        width: 90%;
+    }
+    .wk_product_opt_container .label_bottom {
+        max-width: 180px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .wk_product_opt_container .label_bottom {
+        max-width: 180px;
+    }
+    .wk_custom_product_option_btn_mod {
+        padding: 8px;
+    }
+    #ui-datepicker-div {
+        width: 85%;
+    }
+}

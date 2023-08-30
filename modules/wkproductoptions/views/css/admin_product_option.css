@@ -1,0 +1,123 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License version 3.0
+* that is bundled with this package in the file LICENSE.txt
+* It is also available through the world-wide-web at this URL:
+* https://opensource.org/licenses/AFL-3.0
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to a newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to CustomizationPolicy.txt file inside our module for more information.
+*
+* @author Webkul IN
+* @copyright Since 2010 Webkul
+* @license https://opensource.org/licenses/AFL-3.0 Academic Free License version 3.0
+*/
+
+#mColorPickerInput {
+    color: #000;
+}
+
+.wk-dropdown-ul {
+    position: absolute;
+    background-color: #fff;
+    max-height: 108px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1000;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    margin-left: 0px !important;
+    padding-left: 0px;
+    display: none;
+    border-top: none;
+    text-align: left;
+}
+
+.wk-dropdown-li {
+    list-style: none;
+    padding: 6px 8px;
+}
+
+.wk-dropdown-ul li:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #008abd !important;
+}
+
+#productImageTobeAdd {
+    display: none;
+}
+
+#ui-datepicker-div {
+    z-index: 99999 !important;
+}
+
+.modaldatetime_height {
+    top: 350px !important;
+}
+
+#wk_product_options_config_form .product_selection_search_icon {
+    display: table-cell !important;
+}
+
+.wk_drop_option,
+.wk_display_none,
+.wk_option_multi_select {
+    display: none;
+}
+
+.wk-label {
+    font-size: 1rem;
+    color: #232323;
+    font-weight: bold;
+}
+
+.wk_custom_btn {
+    padding: 0.1rem 0.5rem !important;
+    margin-top: 5px;
+}
+
+.wk-customization-option-modal .modal-header {
+    display: block !important;
+}
+
+.wk-customization-option-modal .modal-body {
+    overflow: auto;
+}
+
+.group_wk_option-currency,
+.group_wk_option-per {
+    border-left: none !important;
+}
+
+.wk-disabled {
+    pointer-events: none !important;
+    cursor: not-allowed !important;
+}
+
+.wk_option_disabled {
+    background: #ddd none repeat scroll 0 0;
+    border: medium none #ddd;
+    pointer-events: none;
+}
+
+.wk-custom-image-size {
+    width: 120px !important;
+}
+
+.wk-calender-from,
+.wk-calender-to {
+    cursor: pointer;
+}
+
+#dropdown_label_info {
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

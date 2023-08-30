@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_emailsubscription</name>
+    <displayName><![CDATA[Nieuwsbriefinschrijving]]></displayName>
+    <version><![CDATA[2.7.1]]></version>
+    <description><![CDATA[Houd contact met uw klanten zoals u dat wilt, voeg een formulier toe aan de startpagina van uw winkel en laat alle nieuwsgierigen zich abonneren op uw nieuwsbrief.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[pricing_promotion]]></tab>
+	<confirmUninstall><![CDATA[Weet u zeker dat u al uw contacten wil verwijderen?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

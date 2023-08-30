@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <name>mycustomfields</name>
+    <displayName><![CDATA[My Custom Fields]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Adds custom fields to the product page settings]]></description>
+    <author><![CDATA[Your Name]]></author>
+    <class_name><![CDATA[MyCustomFields]]></class_name>
+    <need_instance><![CDATA[0]]></need_instance>
+</module>

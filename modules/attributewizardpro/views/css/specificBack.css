@@ -1,0 +1,254 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 26, 2016, 11:34:35 AM
+    Author     : Cristina
+*/
+
+#advanced_settings .two_columns .right_column input[type=radio], #advanced_settings .two_columns .right_column input[type=checkbox] {
+    width: auto;
+    margin-top: 4px;
+    margin-left: 0px;
+}
+
+#advanced_settings .two_columns .left_column {
+    width: 49%;
+    margin-top: 0px; 
+}
+#aw_first-languages {
+    list-style-type: none;    
+    padding-left: 0px;    
+    padding-bottom: 20px;
+}
+#aw_first-languages li {
+    float: left;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.aw_display_wizard_value_label {    
+    width: 60px;
+    float: left;
+    line-height: 30px;
+}
+
+#aw_display_wizard_value {    
+    width: 100px;
+    float: left;
+}
+
+#aw_image_resize {
+    float: left;
+    margin-right: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.aw_image_resize_width_label {
+    float: left;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+#aw_image_resize_width {
+    width: 100px;
+    float: left;
+}
+
+#module_upgrade .panel, .info_popup .panel {
+
+    max-width: 850px;
+}
+
+#module_upgrade .upgrade_check_content, .info_popup .upgrade_check_content {
+max-width: 850px;
+}
+
+/* generator */
+ .awp_cols {
+
+     width: 48%;
+     float: left;
+     margin-right: 1%;
+ }
+
+#module_upgrade .panel, .info_popup .panel {
+
+    max-width: 1200px !important
+}
+
+#module_upgrade .upgrade_check_content, .info_popup .upgrade_check_content {
+    max-width: 1200px !important
+}
+
+.awp_cols.price_impact, .awp_cols.weight_impact, .awp_cols.awp_qty, .awp_cols.awp_default_attr {
+    width: 11%;
+}
+
+.awp_cols input[type="text"] {
+
+    height: 25px;
+}
+
+#awp_attribute_list .attribute-group {
+    border: .0625rem solid #bbcdd2;
+    border-bottom-width: 0;
+}
+
+#awp_attribute_list .attribute-group .attribute-group-name,
+.awp_group_opt {
+    display: block;
+    font-weight: 600;
+    color: #363a41;
+    padding: 1.375rem .4375rem;
+
+    width: 41%;
+    float: left;
+}
+
+select.awp_group_opt {
+    padding: .375rem .4375rem;
+    margin-top: 14px;
+}
+
+#awp_attribute_list .attribute-group .attribute-group-name.collapsed:after {
+    content: "\E313";
+}
+
+#awp_attribute_list .attribute-group .attribute-group-name:after {
+    content: "\E316";
+    font-family: Material Icons;
+    float: right;
+}
+
+#awp_attribute_list .attribute-group:last-child {
+    border-bottom-width: .0625rem;
+}
+
+#awp_attribute_list .attribute-group .attributes {
+    border-top: 2px solid #bbcdd2;
+    padding: .4375em;
+    height: 10.125rem;
+    overflow-x: hidden;
+}
+
+#awp_attribute_list .attribute-group .attributes .attribute .js-attribute-checkbox + .attribute-label {
+    display: inline-block;
+    font-size: .75rem;
+    color: #bbcdd2;
+    margin: 0;
+}
+
+.awp_group_opt {
+    width: 115px;
+    float: left;
+
+    margin-right: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+.awp_shared_label {
+
+    padding: .4375rem .1rem;
+}
+
+.info_alert {
+    padding: 0px 8px 0px 18px;
+
+    line-height: 65px;
+}
+
+#awp_preview_combinations {
+    /*margin-top: 10px;*/
+}
+
+.preview_comb {
+    width: 55%;
+    float: left;
+
+    padding: .4375rem;
+
+    border-right: .0625rem solid #bbcdd2;
+}
+
+.default_comb_preview {
+    background: #25b9d7;
+    color: #fff;
+}
+
+.preview_comb_price, .preview_comb_qty, .preview_comb_weight {
+    width: 13%;
+    float: left;
+    margin-left: 2%;
+    padding: .4375rem;
+
+    border-right: .0625rem solid #bbcdd2;
+}
+
+.row_preview_comb {
+
+    border-top: .0625rem solid #bbcdd2;
+    border-left: .0625rem solid #bbcdd2;
+}
+
+.row_preview_comb:last-child {
+    border-bottom: .0625rem solid #bbcdd2;
+}
+
+.awp_odd {
+
+    background-color: #dff5f9;
+}
+
+.info_alert {
+    margin-right: 10px;
+}
+
+.awp_attribute_default {
+    display: none;
+}
+
+.info_popup .upgrade_check_content img {
+
+    border: 3px solid #22a7f0;
+    border-radius: 14px;
+    width: 1100px;
+}
+
+#module_upgrade .panel, .info_popup .panel {
+    border: 3px solid #22a7f0;
+}
+
+.parent-group-name-container .tokenfield{
+    height: auto;
+}
+
+.bootstrap .parent-group-name-container input[type=text].token-input{
+    display: inline-block;
+    background: none;
+    min-width: 60px;
+    border: 0px;
+    height: 20px;
+    padding: 0px;
+    margin-bottom: 6px;
+    box-shadow: none;
+    display: inline-block;
+    width: 179px;
+}
+.groups-pagination{
+    margin-bottom: 10px;
+}
+.groups-pagination select{
+    width: 100px;
+}
+.awp-pagination{
+    float: right;
+    margin-bottom: 10px !important;
+}
+

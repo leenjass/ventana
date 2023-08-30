@@ -1,0 +1,95 @@
+/**
+ * SEO Performance (PageSpeed, Lighthouse, Lazy Load)
+ *
+ * @author    Rolige <www.rolige.com>
+ * @copyright 2011-2019 Rolige - All Rights Reserved
+ * @license   Proprietary and confidential
+ */
+
+#configure_content .list-group-item i {
+  margin-right: 10px;
+}
+
+#configure_content .dashboard-form .title {
+  font-size: 20px;
+}
+
+#configure_content .dashboard-form .version {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  font-size: 10px;
+  color: #4a4a4a;
+}
+
+#configure_content .module-info,
+#configure_content .partner-info {
+  text-align: center;
+  min-height: 212px;
+}
+
+#configure_content .partner-info .logo a {
+  display: inline-block;
+}
+
+#configure_content .partner-info .logo img {
+  max-height: 57px;
+}
+
+#configure_content .partner-info .logo a:first-child {
+  margin-right: 50px;
+}
+
+#configure_content .partner-info .title {
+  margin-bottom: 40px;
+}
+
+.products-marketing-list {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.products-marketing-list .slick-slide {
+  position: relative;
+  background: #fff;
+}
+
+.products-marketing-list a:hover {
+  text-decoration: none;
+}
+
+.products-marketing-list .name,
+.products-marketing-list .price {
+  display: block;
+  height: 46px;
+  padding: 5px 10px;
+  overflow: hidden;
+}
+
+.products-marketing-list .discount-percentage {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .2125rem .3375rem;
+  color: #fff;
+  background: #f37272;
+  text-transform: uppercase;
+  min-width: 3.125rem;
+  min-height: 1.875rem;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+.products-marketing-list .price .base-price {
+  color: #c8c7c7;
+  text-decoration: line-through;
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.products-marketing-list .price .special-price {
+  font-size: 16px;
+}

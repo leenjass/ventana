@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_googleanalytics</name>
+    <displayName><![CDATA[Google Analytics]]></displayName>
+    <version><![CDATA[4.2.2]]></version>
+    <description><![CDATA[Krijg duidelijk inzicht in belangrijke statistieken over uw klanten, met behulp van Google Analytics]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+	<confirmUninstall><![CDATA[Weet u zeker dat u Google Analytics wil verwijderen? U zal alle gegevens met betrekking tot deze module verliezen.]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

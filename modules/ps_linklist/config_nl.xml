@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_linklist</name>
+    <displayName><![CDATA[Linklijst]]></displayName>
+    <version><![CDATA[5.0.5]]></version>
+    <description><![CDATA[Geef meer zichtbaarheid aan uw inhoud/statische pagina&#039;s (CMS, externe pagina&#039;s of anders), waar en wanneer u maar wilt, zodat uw bezoekers zin hebben om in uw winkel te winkelen.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

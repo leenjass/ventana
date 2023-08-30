@@ -1,0 +1,10 @@
+[{shop_name}]({shop_url})
+Gefeliciteerd!
+
+Uw doorverwezen vriend {sponsored_firstname} {sponsored_lastname} heeft zijn eerste bestelling geplaatst op [{shop_name}]({shop_url})!
+
+Hierbij geven wij u een waardebon ter waarde van {discount_display} (voucher # {discount_name}) die u kan gebruiken voor uw volgende bestelling.
+
+Met vriendelijke groet,
+
+[{shop_name}]({shop_url}) gebouwd met [PrestaShop™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

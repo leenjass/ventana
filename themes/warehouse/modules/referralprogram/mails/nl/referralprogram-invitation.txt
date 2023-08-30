@@ -1,0 +1,12 @@
+[{shop_name}]({shop_url})
+{firstname_friend} {lastname_friend}, volg ons!
+
+Uw vriend {firstname} {lastname} wil deze online shop met u delen: [{shop_name}]({shop_url})!
+
+We bieden u graag een waardebon aan ter waarde van {discount} die u bij uw volgende bestelling kunt gebruiken. Deel onze webshop en verdien een waardebon van {discount}! [Het is erg makkelijk om u in te schrijven. Gewoon hier klikken!]({link})
+
+Wanneer u zichzelf inschrijft, vergeet dan niet het e-mailadres op te geven van uw verwijzende vriend: {email}.
+
+Met vriendelijke groet,
+
+[{shop_name}]({shop_url}) gebouwd met [PrestaShop™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

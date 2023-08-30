@@ -1,0 +1,11 @@
+[{shop_name}]({shop_url})
+Hallo {firstname} {lastname},
+Dank voor uw vertrouwen
+
+Als dank voor uw loyaliteit willen we u een korting aanbieden van {amount}% geldig op uw volgende bestelling! Deze aanbieding is geldig gedurende {days} dagen, maak er snel gebruik van!
+
+Hier is uw waardebon: {voucher_num}
+
+Voer deze code in bij uw winkelwagen om uw korting te krijgen.
+
+[{shop_name}]({shop_url}) gebouwd met [PrestaShop™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

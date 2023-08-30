@@ -1,0 +1,97 @@
+---------------------------------------------------------------------------------------------
+Change Log : Custom Product Options V5.0.0 to V5.1.0 | COMPATIBLE:: PRESTASHOP V1.7 | V8.x.x
+---------------------------------------------------------------------------------------------
+## Improvements:
+- New options type Date, Time and Datetime added
+- Admin can apply combination wise product options
+- Text limit for text and Textarea
+- Placeholder for text and Textarea
+- Configuration provided to display options in pop-up and normal view 
+- Display option in admin cart page
+- Apply options in bulk as per selected category.
+
+## Bug fixes:
+- Display status column in all shop context
+- Tooltip issue fixed in mobile devices
+- Price display issue
+- Fixed validations issues
+- Text issues fixed 
+
+## Db changes:
+- New field placeholder added in wk_product_options_config_lang table
+- New field text_limit added in wk_product_options_config table
+- New field text_limit added in wk_product_options_config_shop table
+- New field is_bulk_enabled added in wk_product_options_config table
+- New field is_bulk_enabled added in wk_product_options_config_shop table
+- New field id_product_attribute added in wk_product_wise_options table 
+
+## Hook changes:
+- New hook 'displayHeader' added
+- New hook 'displayProductOptionCart' added 
+
+### Update Policy:
+	Admin needs to update only zip file of module new version V5.1.0 because while admin will update zip file then database will be updated automatically.
+	
+--------------------------------------------------------------------------------------------
+Change Log : Custom Product Options V4.0.0 to V5.0.0 | COMPATIBLE:: PRESTASHOP V1.7 | V8.x.x
+--------------------------------------------------------------------------------------------
+## Improvements:
+
+- Compatible with PS8 and PHP 8
+- Option to set different impact prices on different values of a product options
+- Display product options on the invoice, delivery slips, and order confirmation mail.
+- Allow customers to purchase different-different product options for the same product
+- Admin can apply only one configuration either customization features or product options features
+- New product option Textarea type added
+- Configuration to set pre-selected product options
+- Configuration to set mandatory product options
+- Configuration added for color picker
+- Select-2 plugin added for multi-selection dropdown
+- Module display name changed from 'Prestashop Product Options' to 'Custom Product Options'
+- By default made the option disable on the admin product page
+- Cross-selling banner migrated to the configuration page
+
+## Bug fixes
+- Fixed text issues
+- Fixed translations issues
+- Fixed UI and display issues
+- Fixed validations issues
+
+## Db changes
+
+Table structure changed:
+Alter table -
+
+wk_product_options_config - New columns added
+	- pre_selected
+	- is_required
+
+wk_product_options_config_shop - New columns added
+	- pre_selected
+	- is_required
+
+Create Table -
+	- wk_product_options_value
+	- wk_product_options_value_shop
+	- wk_product_options_value_lang
+	- wk_product_wise_configuration
+
+### Update Policy:
+- Major changed in database and file.
+- If current version of module is V4.0.0
+	Then admin needs to update only zip file of module new version V5.0.0 because while admin will update zip file then database will be updated automatically.
+
+------------------------------------------------------------------------------------------
+ChangeLog : Custom Product Options V4.0.0 | COMPATIBLE:: PRESTASHOP V1.7 | Initial Release
+------------------------------------------------------------------------------------------
+## Features:
+- Admin can create different type of options using dropdown, checkbox, image and text
+- Admin can add price impact of each options
+- Admin can exclude products for applying options
+- Admin can add options based on categories and groups
+- Admin can add product wise options from product catalog section
+- Display applied options on admin order details
+- Allow customer to select product options from product page or quick view page
+- Show product price based on selected options
+- Display selected options on cartpage, order confirmation page and order details page
+

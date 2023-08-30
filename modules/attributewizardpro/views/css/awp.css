@@ -1,0 +1,300 @@
+div#attributes, .product-variants { display: none !important; }
+
+.open_close{
+    position: absolute;
+    right: 60px;
+}
+.awo_header_fixed {
+	
+	position: absolute;
+
+    line-height: 25px;
+}
+.awp_header_collapible{
+    height: 25px;    
+    position: relative;
+}
+#awp_container {
+	clear: both;
+}
+
+#awp_attribute_groups {
+	list-style: none;
+}
+
+#awp_attribute_groups li {
+	display: block;
+	padding: 20px 10px; margin-bottom: 3px;
+	background-color: #efefef;
+}
+
+#awp_attribute_groups li img.handle {
+	margin-right: 20px;
+	cursor: move;
+}
+
+.awp_box
+{
+	background: transparent;
+	margin:0 0 10px 0;
+	width: 100%;
+}
+.xtop, .xbottom {display:block; background:transparent; font-size:1px;}
+.xb1, .xb2, .xb3, .xb4 {display:block; overflow:hidden;}
+.xb1, .xb2, .xb3 {height:1px;}
+.xb2, .xb3, .xb4 {background:#eeeeee; border-left:1px solid #d9d9d9; border-right:1px solid #d9d9d9;}
+.xb1 {margin:0 5px; background:#d9d9d9;}
+.xb2 {margin:0 3px; border-width:0 2px;}
+.xb3 {margin:0 2px;}
+.xb4 {height:2px; margin:0 1px;}
+.xbtop {background-color:#f3f3f3}
+.xbbot {background-color:#ffffff}
+
+.awp_header {
+	display:block;
+	background:#f3f3f3; 
+	border:0 solid #d9d9d9; 
+	border-width:0 1px; 
+	padding: 0px 10px 5px 10px;
+	font-weight: bold;
+	font-size: 13px;
+	overflow: auto;
+}
+
+.awp_description {
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.awp_content {
+	display:block; 
+	background:#ffffff; 
+	border:0 solid #d9d9d9; 
+	border-width:0 1px; 
+	padding: 10px 10px 5px 10px;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+/* block top languages */
+#awp_languages_block_top {
+	margin: 0.4em 0.1em 0 0;
+	float: left;
+}
+#awp_languages_block_top p {
+	clear: left;
+}
+#awp_languages_block_top ul#awp_first-languages {
+	float: left;
+	height: 1.5em;
+	width: 100%;
+}
+#awp_languages_block_top ul#awp_first-languages li {
+	float:left;
+	margin-right: 0.3em;
+}
+
+#awp_languages_block_top ul#awp_first-languages li.selected_language {
+	float:left;
+	margin-right: 0.3em;
+}
+
+.awp_group_image {
+	border : 1px solid #d9d9d9;
+	margin:auto;
+	margin-bottom:5px;
+}
+
+.awp_image_sel
+{
+	border : 2px solid #c3c3c3;
+}
+.awp_image_nosel
+{
+	border : 2px solid transparent;
+}
+.awp_oos {
+ 	display: none;
+}
+
+.awp_clear {
+	clear: left;
+}
+.awp_none {
+	display: none;
+}
+.awp_left {
+	float: left;
+}
+.awp_clean {
+	border: none;
+	margin:0;
+	padding:0
+}
+.awp_cell_cont{
+	float: left;
+	margin: 0 6px 10px 0;
+}
+.awp_rrla
+{
+	float:left;
+	margin-left: 4px;
+}
+
+.attribute_extra_description {
+    margin-left: 4px;
+}
+.awp_rrca
+{
+	width: 12px;
+	height: 12px;
+	margin: auto;
+	margin-bottom: 4px;
+	clear: both;
+}
+.awp_nila
+{
+	float: left;
+	text-align: center;
+}
+.awp_nica
+{
+	text-align: center;
+	clear: left;
+}
+.awp_sel_conth
+{
+	float:left;
+	margin-left: 6px;
+}
+.awp_sel_contv
+{
+	margin-top: 6px;
+}
+.awp_tbla
+{
+	float: left;
+	text-align: center;
+	margin-left: 6px;
+}
+.awp_tbca
+{
+	text-align: center;
+	clear: left;
+	margin-bottom: 4px;
+}
+.awp_red
+{
+	color: red;
+}
+.awp_fade {
+	position: absolute;
+	width:100%;
+	height:100%;
+	z-index:19999;
+	display:none;
+	background-color:black
+}
+.awp_popup {
+    position: absolute;
+    z-index:20000;
+    top:-5000px;
+    display:none;
+    margin:auto;
+}
+.awp_popup .close
+{
+    float: right;
+	position: relative;
+}
+.awp_popup .close img
+{
+    cursor: pointer;
+}
+.awp_qty_box
+{
+	width: 30px !important;
+}
+.awp_quantity_cell
+{
+	margin: 0 4px 0 4px;
+}
+.awp_stock_container
+{
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	clear: both;
+	overflow: none;
+}
+.awp_sct
+{
+	float: none;
+	max-width: 500px;
+	margin: 0 auto 10px auto;
+}
+.awp_stock
+{
+	float: left;
+	line-height: 30px;
+}
+.awp_stock_btn
+{
+	float: left;
+	margin-left: 10px;
+	line-height: 30px;
+}
+#awp_in_stock_second
+{
+	clear: both;
+	margin: auto;
+ 	text-align: center;	
+}
+#awp_in_stock
+{
+	clear: both;
+	margin: auto;
+ 	text-align: center;	
+}
+#awp_second_price
+{
+	line-height: 30px !important;
+}
+#awp_price
+{
+	line-height: 30px !important;
+}
+.awp_group_image_container
+{
+	float: left;
+	clear: both;
+	margin-right: 6px;
+}
+.awp_box_inner
+{
+	float: right;
+	clear: right;
+}
+.awp_gi
+{
+	margin-right: 10px;
+}
+
+.awp_layered_images img
+{
+	background: none!important;
+}
+
+.awp_checkbox_group
+{
+	width: 16px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#awp_container div.disabled  div{
+        cursor: not-allowed;
+}
+

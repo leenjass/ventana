@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>statsbestproducts</name>
+    <displayName><![CDATA[Beste producten]]></displayName>
+    <version><![CDATA[2.0.1]]></version>
+    <description><![CDATA[Verrijk uw statistieken met een kleine lijst van uw bestsellers om uw klanten beter te leren kennen.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

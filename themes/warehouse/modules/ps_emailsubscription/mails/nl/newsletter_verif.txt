@@ -1,0 +1,7 @@
+[{shop_name}]({shop_url})
+Hallo,
+
+Hartelijk dank voor uw inschrijving op onze nieuwsbrief. Bevestig uw aanvraag door te klikken op de volgende link:
+{verif_url}
+
+[{shop_name}]({shop_url}) gebouwd met [PrestaShop™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

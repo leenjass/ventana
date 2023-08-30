@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>rg_multishopcolormenu</name>
+    <displayName><![CDATA[Multishop Color Menu]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Allows to show different color for multi shop Back Office menu depending on the selected shop context.]]></description>
+    <author><![CDATA[Rolige]]></author>
+    <tab><![CDATA[others]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

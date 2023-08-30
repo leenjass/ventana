@@ -1,0 +1,1 @@
+- Module Custom Product Options V5.1.0 compatible with PrestaShop V1.7.x.x | V8.x.x

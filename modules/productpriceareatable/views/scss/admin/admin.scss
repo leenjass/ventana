@@ -1,0 +1,92 @@
+.ppat-add-option-value {
+	background-color: #f7f7f7;
+	padding: 20px;
+	position: relative;
+
+	label {
+		height: 30px;
+		line-height: 30px;
+	}
+
+	.row {
+		margin: 0 !important;
+	}
+
+	#ppat-btn-option-value-add {
+		position: absolute;
+		right: 20px;
+		top: 20px;
+	}
+}
+
+#ppat-options-list-wrapper {
+	border:1px solid #ccc;
+	height:400px;
+	padding: 20px;
+}
+
+table tr.selected {
+	background-color:#25b9d7;
+
+	icon, a, span, i {
+		color:#fff !important;
+	}
+}
+
+
+#form-add-col { display:none; }
+
+.pq-grid-toolbar span.button {
+	display:inline-block;
+	padding:4px;
+	background-color:#f1f1f1;
+	border-radius:3px;
+	margin-right:3px;
+	cursor:pointer
+}
+
+	.pq-grid-toolbar span.button i {
+		font-family:FontAwesome !important;
+		margin-right:4px;
+	}
+
+	.pq-grid-toolbar span.button:hover {
+		background-color:#fff;
+	}
+
+#ppat-single-option-wrapper {
+	background-color:#f7f7f7;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#ppat-grid-wrapper {
+
+	.pq-grid-toolbar span.button i {
+		font-family: Material Icons !important;
+	}
+
+	.btn-new-column, .btn-new-row {
+		i::before {
+			content: 'add_circle';
+		}
+	}
+
+	.btn-delete-column, .btn-delete-row {
+		i::before {
+			content: 'remove_circle';
+		}
+	}
+
+	.btn-import-csv {
+		i::before {
+			content: 'file_upload';
+		}
+	}
+
+}
+
+.btn-new-column i::before {
+	content: 'swap_vert';
+}
+

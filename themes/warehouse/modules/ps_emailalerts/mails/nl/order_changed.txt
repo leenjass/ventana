@@ -1,0 +1,9 @@
+[{shop_name}]({shop_url})
+Hallo {firstname} {lastname},
+
+Uw bestelling met referentie {order_name} is gewijzigd.
+
+Volg uw bestelling en download uw factuur via onze online shop, ga naar [Bestellingen en details]({history_url}) in uw klantenaccount.
+Met een gast account kunt de bestelling volgen via ["Bestelling volgen"]({guest_tracking_url}) in onze online shop.
+
+[{shop_name}]({shop_url}) gebouwd met [PrestaShop™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

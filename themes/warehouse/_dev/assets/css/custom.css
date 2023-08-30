@@ -1,0 +1,364 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+/* Product Attributes Design */
+.product-variants .input-color,
+.product-variants .color {
+  width: 7rem;
+  height: 7rem;
+}
+
+.ventanastore_accordion_content, .col.view-switcher {
+  display: none;
+}
+
+span.ventanastore_accordion_title {
+  cursor: pointer;
+  border: 1px solid #e3e3e3;
+  padding-left: 10px;
+  font-weight: 300;
+  position: relative;
+}
+
+span.ventanastore_accordion_title::after {
+  font-family: 'FontAwesome';
+  content: '\f107';
+  float: right;
+  margin-right: 20px;
+  font-size: 2rem;
+  color: #858585;
+}
+
+span.ventanastore_accordion_title.active::after {
+  content: '\f106';
+}
+
+div.ventanastore_accordion_content {
+  padding: 18px 0 0 0px;
+}
+
+.product-variants .input-color:checked+span,
+.product-variants .input-color:hover+span,
+.product-variants .input-radio:checked+span,
+.product-variants .input-radio:hover+span {
+  border: 1px solid #ff9900;
+  outline: unset;
+}
+
+.product-variants>.product-variants-item .color {
+  border: 1px solid #eeeeee;
+}
+
+.product_header_container,
+.product_p_price_container {
+  border-bottom: 0;
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+}
+
+#product-images-thumbs.swiper-container-vertical {
+  margin-right: 20px;
+  width: calc(100% - 20px);
+}
+
+#product-images-thumbs.swiper-container-vertical .img-fluid {
+  object-fit: cover;
+  width: 100%;
+}
+
+.swiper-slide {
+  min-height: 105px;
+}
+
+.tax-shipping-delivery-label {
+  margin-top: 0.4rem;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    height: 300px;
+    transform: translateY(-130px);
+    width: 60px;
+}
+
+.product-variants .form-control-label {
+    padding-bottom: 0.8rem;
+}
+.form-control-label {
+    padding-top: 1rem;
+}
+
+.product-variants .input-radio, .product-variants .radio-label {
+    padding: 10px 20px!important;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.ventanastore_accordion_content input[type="radio"]:not(:checked) + span {
+    border: 1px solid #fff;
+}
+
+.product-variants .input-radio+span {
+    line-height: 2rem!important;
+}
+
+span.ventanastore_accordion_title.activecheck i{
+    font-size: 20px;
+    color: #E46E29!important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+span.ventanastore_accordion_title i{
+    color: #c6c7c7!important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+    font-size: 20px;
+}
+.product_current_attribute{
+  border: 1px solid #E46E29!important;
+}
+span.radio_button_custom_norm:before{
+    font-family: 'FontAwesome';
+    content: "\f111";
+    color: transparent;
+    font-size: 13px;
+    padding: 2px;
+    position: relative;
+    top: -0.3px;
+}
+span.radio_button_custom_or:before{
+    font-family: 'FontAwesome';
+    content: "\f111";
+    color: #E46E29;
+    font-size: 13px;
+    padding: 2px;
+    position: relative;
+    top: -0.3px;
+}
+span.radio_button_custom_norm{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #E46E29;
+    border-radius: 50%;
+    margin-right: 5px; 
+    cursor: pointer;  
+}
+
+/* Style for hint popup */
+/* Style the question mark icon */
+.product-variants a.modal-trigger {
+  position: absolute;
+  right: 40px;
+  margin-top: 4px;
+  z-index: 9;
+  cursor: pointer;
+  padding: 10px;
+  opacity: .8;
+}
+.ppat-unit-entry-wrapper i {
+  font-size: 1.1rem!important;
+  padding: 0 5px;
+}
+a.modal-trigger i {
+  font-size: 1.4rem;
+  cursor: pointer;
+  opacity: .8;
+}
+.height_width_custom_row_section{
+  flex-direction: row-reverse;
+  border: 1px solid #e3e3e3;
+  padding: 10px 0 10px 0;
+  margin: unset;
+  background: #f3f3f3;
+}
+span.ventanastore_accordion_title i.fa.fa-question-circle-o.custom-icon {
+    color: #545560!important;
+    float: right;
+    position: absolute;
+    color: #545460!important;
+    right: 4rem;
+}
+#ppat-widget .col_height_field i.fa.fa-question-circle-o.custom-icon , #ppat-widget .col_width_field i.fa.fa-question-circle-o.custom-icon{
+  color: #E46E29!important;
+  font-size: 20px;
+  vertical-align: middle;
+}
+body#product div.product_p_price_container{
+  display: none;
+}
+#ppat-widget .col_height_field label , #ppat-widget .col_width_field label{
+    font-weight: 600;
+}
+
+#ppat-widget .col_height_field input , #ppat-widget .col_width_field input{
+    font-weight: 600;
+}
+p.single_product_production_text:before {
+    font-family: 'FontAwesome';
+    content: '\f111  \f111  \f111 ';
+    margin-right: 5px;
+    font-size: 10px;
+    color: #1d7bbb;
+}
+body#product .product_information_parent.row div.single_product_des_data i.fa-check-circle-o {
+    color: #e46e29;
+    font-size: 19px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.product_information_parent .product-price{
+  font-size: 25px;
+  font-weight: 600;
+}
+div.product_information_parent div.col_descript_inner_data{
+  border: 1px solid #e3e3e3;
+  padding: 12px;
+}
+.product_information_parent.row .product-information.col {
+    padding: 0 10px;
+}
+@media only screen and (max-width: 880px){
+  .product_information_parent.row{
+    flex-direction: column;
+  }
+}
+#ppat-widget .col_height_field{
+  padding-left: 5px;
+}
+#ppat-widget .col_width_field{
+  padding-right: 0px;
+}
+.product_text_price_new p{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px!important;
+}
+.single_product_overview_secction p{
+  margin-bottom: 5px;
+}
+#single_product_add_to_cart_btn{
+  background: #1d7bbb;
+  color: #fff;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 10px 15px;
+  margin-top: 20px;
+  transition: .3s ease;
+}
+@media only screen and (min-width: 998px){
+  .product_information_parent .product-information{
+    padding-right: 0px!important;
+  }
+
+}
+.single_product_overview_secction span.first-word{
+  font-weight: 600;
+}
+#sidebar_add_to_cart_quanity{
+  border: 1px solid #d5d5d5;
+      max-width: 50px;
+      min-height: 28px;
+      text-align: center;
+}
+body#product div.js-product-add-to-cart div.col-add-qty,
+body#product div.js-product-add-to-cart div.col-add-btn{
+  display: none;
+}
+#single_product_add_to_cart_btn:hover{
+  background: #E46E29;
+}
+div#ppat-widget {
+  margin-bottom: 20px;
+}
+#ppat-widget .ppat-error {
+  padding: 3px;
+  font-size: 0.9rem;
+}
+#ppat-widget .ppat-error {
+  background-color: #c72300;
+}
+#ppat-widget .ppat-error-unit {
+  border: 1px solid #c72300;
+}
+input.form-control.ppat-unit-entry::placeholder {
+  font-weight: 100;
+  color: #ababab;
+}
+div#iqitadditionaltabs-accordion {
+  display: none;
+}
+.single_product_des_data i {
+  margin-right: 5px;
+}
+.products-grid .product-miniature-layout-1 .products-variants {
+  margin-top: 10px;
+}
+.product-miniature-default .variant-links {
+  margin-top: 15px;
+}
+.product-miniature-default .variant-links .color {
+  border-radius: 50px!important;
+  width: 15px;
+  height: 15px;
+}
+.products-grid .product-miniature-default .product-category-name {
+  color: #e1650e!important;
+  font-weight: 600;
+  font-size: 11px;
+}
+.products-grid .product-miniature-default  .product-title {margin: 5px 0px 10px 0;}
+li.product-flag.new {
+  background: #e1650f;
+  color: #fff;
+}
+.product-miniature-grid .product-price {
+  display: flex;
+  justify-content: center;
+}
+.product-miniature-grid div.product-price-and-shipping.price_based_on_size .product-price:before{
+  content: 'v.a.';
+  margin-right: 5px;
+  font-size: 11px;
+  color: #484848;
+  font-weight: 500;
+}
+@media only screen and (max-width: 998px){
+  .product-variants a.modal-trigger{
+    right: 60px;
+  }
+}
+@media only screen and (max-width: 560px){
+  #ppat-widget .col_width_field {
+    padding-right: 15px; 
+    padding-left: 5px;
+  }
+  body#product #inner-wrapper{
+    padding: unset;
+  }
+  body#product div.product-info-row{
+    padding: 2rem 0rem;
+  }
+  body#product #main-product-wrapper .product-add-to-cart{
+    padding-left: 15px;
+  }
+  body#product #footer-container-first{
+    display: none;
+  }
+  ._footer-copyrights-1 .copyright-img{
+    text-align: left!important;
+    margin-bottom: 2rem;
+  }
+}
+.product-miniature-default li.product-flag:first-child{
+  display: none; 
+}
+.ventanastore_accordion_content ul li {
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_buybuttonlite</name>
+    <displayName><![CDATA[Koop knop aan]]></displayName>
+    <version><![CDATA[1.0.1]]></version>
+    <description><![CDATA[Verhoog uw conversie en stimuleer uw verkopen, genereer links en voeg ze toe aan uw content, zodat bezoekers eenvoudig kunnen afrekenen.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Weet u zeker dat u deze module wilt deïnstalleren?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
