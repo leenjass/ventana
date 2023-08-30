@@ -1,0 +1,25 @@
+#ppat-widget {
+
+	.ppat-table-options-wrapper {
+		margin-bottom: 20px;
+	}
+
+	input, select {
+		background-color:#fff;
+		border: 1px solid #ebebeb;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.ppat-error {
+		background-color:#ff5757;
+		color:#fff;
+		padding: 10px;
+		display: none;
+	}
+
+	.ppat-error-unit {
+		bordeR:1px solid #ff5757;
+	}
+
+}

@@ -1,0 +1,52 @@
+/* CSS Document */
+
+#ppbs-overlay {
+    background-color: #000;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+}
+
+#ppbs-popup-wrapper {
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#fff;
+    width:600px;
+    height:500px;
+    border-radius:3px;
+    overflow: hidden;
+}
+
+.ppbs-popup-content {
+    width:100%;
+    height:100%;
+    padding-top:0px;
+    overflow: hidden !important;
+}
+
+    .ppbs-popup-content .subpanel {
+        position: absolute !important;
+        left: 0px;
+        top: 0px;
+        min-height: 400px;
+        min-width: 400px;
+    }
+
+#ppbs-popup-close {
+    position: absolute;
+    right:10px;
+    top:10px;
+    z-index:1000;
+    cursor: pointer;
+}
+
+    #ppbs-popup-close i {
+        font-size:20px;
+    }

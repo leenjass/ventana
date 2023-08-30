@@ -1,0 +1,178 @@
+/**
+ * Webpay Plus (Transbank)
+ *
+ * @author    Rolige <www.rolige.com>
+ * @copyright 2011-2019 Rolige - All Rights Reserved
+ * @license   Proprietary and confidential
+ */
+
+.bootstrap .fixed-width-xxxl {
+  width: 350px!important;
+}
+
+@media (min-width: 900px) {
+  .rg-group > div {
+    float: left;
+    margin-right: 5px;
+  }
+}
+
+.rg-group ~ .help-block {
+  clear: both;
+  float: left;
+}
+
+#configure_content .list-group-item i {
+  margin-right: 10px;
+}
+
+.dashboard-form .title {
+  font-size: 20px;
+}
+
+.dashboard-form .module-info,
+.dashboard-form .partner-info {
+  text-align: center;
+  min-height: 212px;
+}
+
+.dashboard-form .partner-info .logo a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dashboard-form .partner-info .logo img {
+  max-height: 57px;
+}
+
+.dashboard-form .partner-info .partner-logo img {
+  max-height: 77px;
+}
+
+.dashboard-form .partner-info .logo a:first-child {
+  margin-right: 50px;
+}
+
+.dashboard-form .partner-info .title {
+  margin-bottom: 40px;
+}
+
+.dashboard-form .products-marketing-list {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.dashboard-form .products-marketing-list .slick-slide {
+  position: relative;
+  background: #fff;
+}
+
+.dashboard-form .products-marketing-list a:hover {
+  text-decoration: none;
+}
+
+.dashboard-form .products-marketing-list .name,
+.dashboard-form .products-marketing-list .price {
+  display: block;
+  height: 46px;
+  padding: 5px 10px;
+  overflow: hidden;
+}
+
+.dashboard-form .products-marketing-list .discount-percentage {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .2125rem .3375rem;
+  color: #fff;
+  background: #f37272;
+  text-transform: uppercase;
+  min-width: 3.125rem;
+  min-height: 1.875rem;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+.dashboard-form .products-marketing-list .price .base-price {
+  color: #c8c7c7;
+  text-decoration: line-through;
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.dashboard-form .products-marketing-list .price .special-price {
+  font-size: 16px;
+}
+
+.cron-form .cron .command {
+  display: block;
+  padding: 10px 10px;
+  border: 1px solid #f3dce2;
+  margin-bottom: 3px;
+}
+
+.log-form .log .url {
+  font-weight: 700;
+}
+
+.help-form .title,
+.help-form .content {
+  text-align: center;
+}
+
+.help-form .title i,
+.help-form .title span {
+  display: block;
+}
+
+.help-form .title i {
+  font-size: 30px;
+}
+
+.help-form .title span {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.help-form .content {
+  min-height: 1px;
+  margin-top: 15px;
+}
+
+@media (min-width: 100px) {
+  .help-form .content {
+    min-height: 110px;
+  }
+}
+
+.help-form .content p {
+  display: block;
+  width: 100%;
+}
+
+.help-form .content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.help-form .content ul li {
+  display: inline;
+  white-space: nowrap;
+}
+
+.help-form .content ul li:after {
+  content: '\00b7';
+  margin-left: 5px;
+  margin-right: 2px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.help-form .content ul li:last-child:after {
+  display: none;
+}

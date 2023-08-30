@@ -1,0 +1,7 @@
+loginascustomer_login_as_customer:
+  path: login-as-customer/{customerId}/login-as-customer
+  methods: [GET]
+  defaults:
+    _controller: 'LoginAsCustomerNamespace\Controller\Admin\LoginAsCustomerController::loginAsCustomerAction'
+  requirements:
+    customerId: \d+

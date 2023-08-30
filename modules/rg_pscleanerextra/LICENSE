@@ -1,0 +1,5 @@
+@name 	   Rolige PrestaShop Cleaner Extra
+@desc 	   Clean obsolete data, check and fix functional integrity constraints, rename DB prefix, chance tables to InnoDB engines, clear obsolete product images and remove default data.
+@author    Rolige <www.rolige.com>
+@copyright 2011-2020 Rolige - All Rights Reserved
+@license   Proprietary and confidential

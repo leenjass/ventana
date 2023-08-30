@@ -1,0 +1,10 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+/* Product Attributes Design */
+.product-variants .input-color, .product-variants .color {
+    width: 7rem;
+    height: 7rem;
+}
